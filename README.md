@@ -1,11 +1,8 @@
-# Notice
-This document is still under development. Contact 120090527 if you have any advice.
-
 # SSM Library
 
 ## Description
 
-The SSM (Surrogate Safety Measures) Library is a comprehensive library focused on providing surrogate safety measures in traffic analysis. It's primarily based on measures such as Time to Collision (TTC), Gap Time (GT), Encroachment Time (ET), Deceleration Rate (DR), Proportion of Stopping Distance (PSD), Post-Encroachment Time (PET), and Initially Attempted Post-Encroachment Time (IAPT). The objective is to provide a tool that allows for a more in-depth analysis of traffic conflicts, focusing not only on frequency but also on severity.
+The SSM (Surrogate Safety Measures) Library is a comprehensive library focused on providing surrogate safety measures in self-driving safety analyze. It's primarily based on measures such as Time to Collision (TTC), Gap Time (GT), Encroachment Time (ET), Deceleration Rate (DR), Proportion of Stopping Distance (PSD), Post-Encroachment Time (PET), and Initially Attempted Post-Encroachment Time (IAPT). The objective is to provide a tool that allows for a more in-depth analysis of traffic conflicts, focusing not only on frequency but also on severity.
 
 ## Installation
 
@@ -31,6 +28,11 @@ from ssm_library import your_module
 ## Contributing
 
 Contributions are welcomed! Please read the contributing guidelines to get started.
+
+# Notice and motivation
+I have been doing research about the deterministic safety meastures about AD for a long time. SSM proves to be a mature yet traditional way to measure the driving safety conditions. More widespread use means that we can help understand and improve the generalization of these traditional metrics to make them suitable for more complex scenarios. At the same time, I noticed that these traditional metrics are being used in conjunction with some neural network architectures. Therefore, I believe that this work can also reduce some of the repetitive code development tasks and allow more authors to focus on the furture development and application itself.
+
+This document is still under development. Contact 120090527@link.cuhk.edu.cn if you have any advice.
 
 ## License
 
